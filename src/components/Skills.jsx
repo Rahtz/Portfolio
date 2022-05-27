@@ -10,6 +10,7 @@ import AWS from '../assets/aws.png';
 import Github from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import AngularImg from '../assets/angular.png';
 
 const Skills = () => {
   return (
@@ -35,7 +36,7 @@ const Skills = () => {
                   <p className='my-4'>JavaScript</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                  <img className='w-20 mx-auto' src={AngularImg} alt="HTML icon" />
                   <p className='my-4'>Angular</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
